@@ -1377,6 +1377,28 @@ button.accordion{
 
 /*fin boton audio*/
 
+/* Estilos para iPhone 11 Pro en modo vertical */
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    /* Aquí puedes agregar tus estilos específicos para el iPhone 11 Pro */
+    .portada{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-image: url("./img/portada.jpeg");
+      /* background-size:cover; */
+      background-position: center center; 
+      background-attachment:scroll;
+      overflow-x: hidden;
+  
+  
+    }
+}
+
 
 @media (min-width: 1200px) { 
   .accordion{
