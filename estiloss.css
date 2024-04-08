@@ -267,11 +267,12 @@ body {
 .fecha > h3{
   display: inline-flex;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.9em;
   font-weight:800;
   color:#ffffff;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
+  margin-top: 80px;
   text-shadow: -1px 0px 1px #000;
 }
 
