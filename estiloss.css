@@ -16,6 +16,27 @@ body {
     /* background-color:#235D3A; */
   
   }
+  .iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #2F855A;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: 15px 20px 10px 20px;
+  }
+  .iphone h3{
+    font-family: "Lilita One";
+    padding: 5px;
+  }
+  .android{
+    font-family: "Lilita One";
+    color: #2F855A;
+
+  }
   .contenedor{
     width: 100%;
     display: flex;
@@ -397,6 +418,7 @@ h2.ctofalta{
   .panel>p{
     font-size: 20px;
   }
+
 }
 
 
@@ -640,7 +662,7 @@ h2.ctofalta{
   }
   .btn{
     font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     background-color:  #efb810;
@@ -651,6 +673,7 @@ h2.ctofalta{
   .canciones{
 
     background-attachment: fixed;
+    padding: 5px;
   }
 
   .boton>.fsubmit{
@@ -878,6 +901,7 @@ label{
 }
 .ayuda>h1{
   margin-top: -17px;
+  text-shadow: 2px 2px 2px black;
 }
 .ayuda>h2{
   font-family: "Montserrat", Sans-serif;
@@ -903,6 +927,7 @@ label{
     line-height: 24px;
     letter-spacing: 1px;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 
 .formu2{
@@ -916,6 +941,7 @@ label{
   line-height: 24px;
   letter-spacing: 1px;
   text-align: center;
+  text-shadow: 1px 1px 1px black;
 
 }
 .titulo_confirmacion{
@@ -1048,6 +1074,15 @@ section>.asistir{
   @media (max-width: 600px){
     .fotomodal{
       width: 90%;
+    }
+    .canciones h4{
+      font-family: 'Lilita One', cursive;
+      text-align: center;
+      font-size: 2em;
+      color: white;
+      padding: 18px;
+      text-shadow: 2px 2px black;
+      /* background-color: white; */
     }
   }
 
@@ -1327,7 +1362,7 @@ button.accordion{
             background-image: url(./img/contenedor.png);
             position: fixed;
             margin: 0% 0% 0% 0%;
-            top: 400px;
+            top: 620px;
             background-color: #3333337A;
             border-radius: 100px 100px 100px 100px;
             padding: 2px;
@@ -1484,7 +1519,7 @@ button.accordion{
     position: absolute;
     width: 255px;
     height: auto;
-    top: 427px;
+    top: 1200px;
     left: -65px;
   }
   

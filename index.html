@@ -417,8 +417,42 @@
         <h3>SUGERI LAS CANCIONES QUE NO PUEDEN FALTAR EN MI FIESTA</h3>
       </div>
       <section id="confirmarAsistencia" class="confirmarAsistencia">
+        <div class="iphone">
+          <h3>Si tenes iPhone sugerí las canciones aqui:</h3>
+          <lottie-player class="lottie" src="/json/flecha dorada.json" background="transparent" speed="1"
+            style="width: 100px; height: 100px;" loop autoplay></lottie-player>
 
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Sugerir canción
+          </button>
+        </div> <br>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- <div class="modal-header">
+             <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+              <div class="modal-body">
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYVpliXjmgldFkhvS6YJkgvFioL_ow_v69G6U9Nc8rrQ1-QA/viewform?embedded=true" width="350" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin modal -->
+
+        
         <form id="canciones" class="canciones">
+          <h4> Si tenés Android, sugerí las canciones aquí:</h4>
           <div class="box-input">
 
             <input name="nombre" id="NombreCancion" type="text" placeholder="Nombre de Cancion *" required>
@@ -524,10 +558,51 @@
             </p>
             <p class="tespero">Te espero!</p>
           </div>
+          <br>
+          <div class="iphone">
+            <h3>Si tenes iPhone confirmar asistencia aqui</h3>
+            <lottie-player class="lottie" src="/json/flecha dorada.json" background="transparent" speed="1"
+              style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+              confirmar
+            </button>
+          </div> <br>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div> -->
+                <div class="modal-body">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9UrSaVE-ZS_P1LuNRZveFzGnP4N2l08LDBS7jNAtgn-3kcw/viewform?embedded=true" width="350" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- fin-prueba -->
+
+
+
+
+
+
 
           <form id="formulario" class="formulario">
+            <h3 class="android">Si tenes Android confirmar asistencia aquí:</h3>
             <div class="box-input">
-
               <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
               <!-- <span data-placeholder="Escriba su Nombre"></span> -->
             </div>
